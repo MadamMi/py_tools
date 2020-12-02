@@ -11,3 +11,7 @@ video_ids：待解析的视频名字，list或者all。all视频文件夹下表�
 read_video函数：将待解析的视频按照3000ms解析出来
 short_videos_path：存放截取成一帧一帧的图像的短视频文件路径
 xml_reload：解析xml，并将短视频对应的xml信息写到图像中
+
+生成和解析xml.py中：
+write_xml(path)：生成xml文件。生成的文件见1.xml
+test_xml(path):解析xml文件
